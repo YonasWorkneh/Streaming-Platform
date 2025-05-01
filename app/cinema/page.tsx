@@ -27,6 +27,7 @@ export default function StreamingPlatform() {
             <NavItem
               icon="/svg/dashboard.svg?height=40&width=40"
               label="Destpek"
+              src="/"
               bgColor={"bg-white"}
             />
             <NavItem
