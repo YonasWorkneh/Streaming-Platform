@@ -2,12 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function NavItem({
+  src="#",
   icon,
   label,
   bgColor = "bg-gray-800",
   active = false,
   isUser = false,
 }: {
+  src?:string,
   icon: string;
   label: string;
   active?: boolean;
@@ -16,7 +18,7 @@ export default function NavItem({
 }) {
   return (
     <Link
-      href="#"
+      href={src}
       className={`flex flex-col items-center justify-center text-xs ${
         active ? "text-green-500" : "text-gray-300"
       }`}
