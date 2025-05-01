@@ -37,6 +37,7 @@ export default function StreamingPlatform() {
             <NavItem
               icon="/svg/play.svg?height=40&width=40"
               label="Sinema"
+              src="/cinema"
               bgColor="bg-white"
             />
             <NavItem
